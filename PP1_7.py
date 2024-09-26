@@ -1,25 +1,39 @@
+'''
+    Lesson: Booleans
+    Author: Eric Fang
+    Date Created: September 25th, 2024
+    Date Last Modified: September 26th, 2024
+'''
 
-
-q1():
+def q1():
   #Write code here
+  print(True)
 
-q2():
+def q2():
   #Write code here
+  print(int(input("Input an integer: ")) > 5)
 
-q3():
+def q3():
   #Write code here
+  print(input("Input the letter a: ") == "a")
 
-q4():
+def q4():
   #Write code here
+  print(input("Input a word earlier in the dictionary than google: ") < "google")
 
-q5():
+def q5():
   #Write code here
+  num1 = int(input("Input an integer: "))
+  num2 = int(input("Input another integer: "))
+  print("Your numbers multiplied together are greater than 40: " + str(num1 * num2 > 40))
 
 #Do edit the code below
 #Comment the lines below when running your tests
 
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
