@@ -1,4 +1,9 @@
-
+'''
+    Lesson: Booleans
+    Author: Eric Fang
+    Date Created: September 25th, 2024
+    Date Last Modified: September 26th, 2024
+'''
 
 def q1():
   #Write code here
